@@ -8,9 +8,14 @@ namespace ListaExercicios05.Exercicio01
 {
     internal class CaixaRetangular
     {
-        internal string CalcularVolume()
+        public int altura;
+        public int comprimento;
+        public int largura;
+
+        public decimal CalcularVolume()
         {
-            throw new NotImplementedException();
+            return altura * comprimento * largura;
         }
+
     }
 }

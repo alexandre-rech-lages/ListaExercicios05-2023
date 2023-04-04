@@ -8,7 +8,11 @@ namespace ListaExercicios05.ConsoleApp
         {
             CaixaRetangular caixa = new CaixaRetangular();
 
-            Console.WriteLine( "O volume da caixa é: " + caixa.CalcularVolume() );
+            caixa.altura = 10;
+            caixa.comprimento = 20;
+            caixa.largura = 30;
+
+            Console.WriteLine("O volume da caixa é: " + caixa.CalcularVolume());
         }
     }
 }
